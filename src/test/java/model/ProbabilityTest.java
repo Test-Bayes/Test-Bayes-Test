@@ -1,6 +1,7 @@
 package model;
 
 import edu.uw.cse.testbayes.model.Probability;
+import edu.uw.cse.testbayes.runner.JUnitWrapper;
 import edu.uw.cse.testbayes.runner.TestBayesIndividualClassRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -65,6 +66,7 @@ public class ProbabilityTest {
      */
     @Test
     public void multiplyZeroInts() {
+        assertTrue(false);
         Probability oneTwo = new Probability(1, 2);
         Probability zeroSix = new Probability(0, 6);
         oneTwo.multiply(0, 3);
@@ -77,6 +79,7 @@ public class ProbabilityTest {
      */
     @Test
     public void multiplyInts() {
+        assertTrue(false);
         Probability oneTwo = new Probability(1, 2);
         Probability fourSix = new Probability(4, 6);
         oneTwo.multiply(4, 3);
@@ -89,6 +92,7 @@ public class ProbabilityTest {
      */
     @Test
     public void multiplyZeroProbability() {
+        assertTrue(false);
         Probability oneTwo = new Probability(1, 2);
         Probability zeroSix = new Probability(0, 6);
         Probability zeroThree = new Probability(0, 3);
@@ -102,6 +106,7 @@ public class ProbabilityTest {
      */
     @Test
     public void multiplyProbability() {
+        assertTrue(false);
         Probability oneTwo = new Probability(1, 2);
         Probability fourSix = new Probability(4, 6);
         Probability fourThree = new Probability(4, 3);
