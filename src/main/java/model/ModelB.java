@@ -8,6 +8,7 @@ public class ModelB {
     private String name;
     private int value1;
     private int value2;
+    private int value3;
 
     public String getName() {
         return name;
@@ -33,6 +34,14 @@ public class ModelB {
         this.value2 = value2;
     }
 
+    public int getValue3() {
+        return value3;
+    }
+
+    public void setValue3(int value3) {
+        this.value3 = value3;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -40,6 +49,7 @@ public class ModelB {
         ModelB modelB = (ModelB) o;
         return value1 == modelB.value1 &&
                 value2 == modelB.value2 &&
+                value3 == modelB.value3 &&
                 Objects.equal(name, modelB.name);
     }
 
@@ -54,6 +64,7 @@ public class ModelB {
                 .add("name", name)
                 .add("value1", value1)
                 .add("value2", value2)
+                .add("value2", value3)
                 .toString();
     }
 }
