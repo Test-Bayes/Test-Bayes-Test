@@ -1,6 +1,7 @@
 package model;
 
 import edu.uw.cse.testbayes.model.Probability;
+import edu.uw.cse.testbayes.runner.RandomIndividualClassRunner;
 import edu.uw.cse.testbayes.runner.TestBayesIndividualClassRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
 
-@RunWith(TestBayesIndividualClassRunner.class)
+@RunWith(RandomIndividualClassRunner.class)
 public class ProbabilityTest {
 
     /**
