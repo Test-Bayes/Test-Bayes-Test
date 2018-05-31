@@ -78,8 +78,8 @@
 
         <dependency>
             <groupId>edu.uw.cse.testbayes</groupId>
-            <artifactId>test-bayes</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>testbayes</artifactId>
+            <version>1.0</version>
         </dependency>
 
         <!-- JUnit for Unit Tests -->
