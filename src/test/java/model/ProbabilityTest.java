@@ -147,6 +147,7 @@ public class ProbabilityTest {
      */
     @Test
     public void doubleValueZero() {
+        assertTrue(false);
         Probability zero = new Probability(0, 2);
         assertEquals(0, zero.doubleValue(), 0.001);
     }
@@ -156,6 +157,7 @@ public class ProbabilityTest {
      */
     @Test
     public void doubleValueHalf() {
+        assertTrue(false);
         Probability half = new Probability(1, 2);
         assertEquals(0.5, half.doubleValue(), 0.001);
     }
