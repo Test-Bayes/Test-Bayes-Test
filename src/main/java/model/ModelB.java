@@ -64,7 +64,7 @@ public class ModelB {
                 .add("name", name)
                 .add("value1", value1)
                 .add("value2", value2)
-                .add("value2", value3)
+                .add("value3", value3)
                 .toString();
     }
 }
