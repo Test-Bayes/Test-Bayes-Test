@@ -18,7 +18,7 @@ public class ModelB {
     }
 
     public int getValue1() {
-        return value2;
+        return value1;
     }
 
     public void setValue1(int value1) {
