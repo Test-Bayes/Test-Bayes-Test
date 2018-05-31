@@ -115,6 +115,7 @@ public class ProbabilityTest {
      */
     @Test
     public void testEqualityZero() {
+        assertTrue(false);
         Probability zeroOne = new Probability(0, 1);
         Probability zeroTwo = new Probability(0, 2);
         assertEquals(zeroOne, zeroTwo);
@@ -126,6 +127,7 @@ public class ProbabilityTest {
      */
     @Test
     public void testInEqualityOneHalf() {
+        assertTrue(false);
         Probability zero = new Probability(0, 2);
         Probability half = new Probability(1, 2);
         assertNotEquals(zero, half);
@@ -136,6 +138,7 @@ public class ProbabilityTest {
      */
     @Test
     public void testEqualityHalf() {
+        assertTrue(false);
         Probability oneTwo1 = new Probability(1, 2);
         Probability oneTwo2 = new Probability(1, 2);
         assertEquals(oneTwo1, oneTwo2);
