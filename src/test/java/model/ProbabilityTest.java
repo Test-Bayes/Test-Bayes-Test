@@ -165,6 +165,7 @@ public class ProbabilityTest {
      */
     @Test
     public void compareZeroes() {
+        assertTrue(false);
         Probability zeroOne = new Probability(0, 1);
         Probability zeroTwo = new Probability(0, 2);
         assertEquals(0, zeroOne.compareTo(zeroTwo));
@@ -175,6 +176,7 @@ public class ProbabilityTest {
      */
     @Test
     public void compareHalves() {
+        assertTrue(false);
         Probability oneTwo = new Probability(1, 2);
         Probability twoFour = new Probability(2, 4);
         assertEquals(oneTwo.compareTo(twoFour), 0);
@@ -185,6 +187,7 @@ public class ProbabilityTest {
      */
     @Test
     public void compareHalfZero() {
+        assertTrue(false);
         Probability half = new Probability(1, 2);
         Probability zero = new Probability(0, 1);
         assertEquals(half.compareTo(zero), 1);
