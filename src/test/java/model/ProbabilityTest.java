@@ -1,8 +1,7 @@
 package model;
 
 import edu.uw.cse.testbayes.model.Probability;
-import edu.uw.cse.testbayes.runner.JUnitWrapper;
-import edu.uw.cse.testbayes.runner.TestBayesIndividualClassRunner;
+import edu.uw.cse.testbayes.runner.*;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
