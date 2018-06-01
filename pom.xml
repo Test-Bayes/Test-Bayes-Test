@@ -78,7 +78,7 @@
 
         <dependency>
             <groupId>edu.uw.cse.testbayes</groupId>
-            <artifactId>test-bayes</artifactId>
+            <artifactId>testbayes</artifactId>
             <version>1.0</version>
         </dependency>
 
